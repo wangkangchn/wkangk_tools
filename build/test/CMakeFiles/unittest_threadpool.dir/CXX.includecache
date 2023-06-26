@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../common.hpp
+config.hpp
+../config.hpp
+memory
+-
+chrono
+-
+
+../config.hpp
+
+/home/wkangk/tools/logger/logger.cpp
+logger.hpp
+/home/wkangk/tools/logger/logger.hpp
+
+/home/wkangk/tools/logger/logger.hpp
+memory
+-
+string
+-
+spdlog/spdlog.h
+-
+spdlog/async.h
+-
+spdlog/sinks/stdout_color_sinks.h
+-
+spdlog/sinks/basic_file_sink.h
+-
+spdlog/sinks/rotating_file_sink.h
+-
+common.hpp
+/home/wkangk/tools/logger/common.hpp
+
