@@ -9,8 +9,6 @@ Copyright © wkangk <wangkangchn@163.com>
 #ifndef __WKANGK_TOOLS_CONFIG_HPP__ 
 #define __WKANGK_TOOLS_CONFIG_HPP__ 
 
-
-
 #define WKANGK_TOOLS_NAMESPACE_NAME     wkangk_tools
 #define WKANGK_TOOLS_BEGIN_NAMESPACE    namespace WKANGK_TOOLS_NAMESPACE_NAME {
 #define WKANGK_TOOLS_END_NAMESPACE      }
