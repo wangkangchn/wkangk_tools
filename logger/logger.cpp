@@ -8,7 +8,7 @@ Copyright © wkangk <wangkangchn@163.com>
 ***************************************************************/
 #include "logger/logger.hpp"
 
-WKANGK_TOOLS_BEGIN_NAMESPACE
+TOOLS_BEGIN_NAMESPACE
 
 std::shared_ptr<spdlog::logger> MyLogger::logger_ = nullptr;
 
@@ -67,4 +67,4 @@ void MyLogger::set_level(LogLevel log_level)
     logger_->set_level(level);
 }
 
-WKANGK_TOOLS_END_NAMESPACE
+TOOLS_END_NAMESPACE

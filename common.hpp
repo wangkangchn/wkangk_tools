@@ -6,11 +6,11 @@ Copyright © wkangk <wangkangchn@163.com>
 描述	   	: 
 时间	   	: 2023-05-30 20:49
 ***************************************************************/
-#ifndef __WKANGK_TOOLS_COMMON_HPP__ 
-#define __WKANGK_TOOLS_COMMON_HPP__ 
+#ifndef __TOOLS_COMMON_HPP__ 
+#define __TOOLS_COMMON_HPP__ 
 #include "config.hpp"
 
-WKANGK_TOOLS_BEGIN_NAMESPACE
+TOOLS_BEGIN_NAMESPACE
 
 class INoCopy
 {
@@ -64,5 +64,5 @@ constexpr std::chrono::duration<long double> operator ""_ms(long double ms)
     return std::chrono::duration<long double>(ms);
 }
 
-WKANGK_TOOLS_END_NAMESPACE
-#endif	/* !__WKANGK_TOOLS_COMMON_HPP__ */
+TOOLS_END_NAMESPACE
+#endif	/* !__TOOLS_COMMON_HPP__ */

@@ -6,13 +6,13 @@ Copyright © wkangk <wangkangchn@163.com>
 描述	   	: 配置头文件
 时间	   	: 2023-05-30 20:50
 ***************************************************************/
-#ifndef __WKANGK_TOOLS_CONFIG_HPP__ 
-#define __WKANGK_TOOLS_CONFIG_HPP__ 
+#ifndef __TOOLS_CONFIG_HPP__ 
+#define __TOOLS_CONFIG_HPP__ 
 
-#define WKANGK_TOOLS_NAMESPACE_NAME     wkangk_tools
-#define WKANGK_TOOLS_BEGIN_NAMESPACE    namespace WKANGK_TOOLS_NAMESPACE_NAME {
-#define WKANGK_TOOLS_END_NAMESPACE      }
+#define TOOLS_NAMESPACE_NAME     tools
+#define TOOLS_BEGIN_NAMESPACE    namespace TOOLS_NAMESPACE_NAME {
+#define TOOLS_END_NAMESPACE      }
 
-#define USEING_WKANGK_TOOLS_NAMESPACE   using namespace WKANGK_TOOLS_NAMESPACE_NAME;
+#define USEING_TOOLS_NAMESPACE   using namespace TOOLS_NAMESPACE_NAME;
 
-#endif	/* !__WKANGK_TOOLS_CONFIG_HPP__ */
+#endif	/* !__TOOLS_CONFIG_HPP__ */

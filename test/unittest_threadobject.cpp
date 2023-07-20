@@ -18,7 +18,7 @@ Copyright © wkangk <wangkangchn@163.com>
 #include "thread/thread_object.hpp"
 
 
-USEING_WKANGK_TOOLS_NAMESPACE
+USEING_TOOLS_NAMESPACE
 
 
 using std::cout;

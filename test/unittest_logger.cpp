@@ -14,10 +14,11 @@ Copyright © wkangk <wangkangchn@163.com>
 
 #include "common.hpp"
 #include "logger/logger.hpp"
+#include "logger/custom_format.hpp"
 #include "command_flags.h"
 
 
-USEING_WKANGK_TOOLS_NAMESPACE
+USEING_TOOLS_NAMESPACE
 
 
 using std::cout;

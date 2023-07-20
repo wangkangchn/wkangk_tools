@@ -6,8 +6,8 @@ Copyright © wkangk <wangkangchn@163.com>
 描述	   	: 线程池
 时间	   	: 2023-05-07 16:56
 ***************************************************************/
-#ifndef __WKANGK_TOOLS_THREAD_POOL_HPP__ 
-#define __WKANGK_TOOLS_THREAD_POOL_HPP__ 
+#ifndef __TOOLS_THREAD_POOL_HPP__ 
+#define __TOOLS_THREAD_POOL_HPP__ 
 #include <iostream>
 #include <queue>
 #include <mutex>
@@ -21,7 +21,7 @@ Copyright © wkangk <wangkangchn@163.com>
 #include "common.hpp"
 
 
-WKANGK_TOOLS_BEGIN_NAMESPACE
+TOOLS_BEGIN_NAMESPACE
 
 
 /**
@@ -151,5 +151,5 @@ private:
 };
 
 
-WKANGK_TOOLS_END_NAMESPACE
-#endif	/* !__WKANGK_TOOLS_THREAD_POOL_HPP__ */
+TOOLS_END_NAMESPACE
+#endif	/* !__TOOLS_THREAD_POOL_HPP__ */

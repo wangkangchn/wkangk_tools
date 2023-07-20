@@ -6,8 +6,8 @@ Copyright © wkangk <wangkangchn@163.com>
 描述	   	: 支持暂停运行的线程
 时间	   	: 2023-06-23 13:38
 ***************************************************************/
-#ifndef __WKANGK_TOOLS_THREADOBJECT_HPP__ 
-#define __WKANGK_TOOLS_THREADOBJECT_HPP__ 
+#ifndef __TOOLS_THREADOBJECT_HPP__ 
+#define __TOOLS_THREADOBJECT_HPP__ 
 #include <memory>
 #include <thread>
 #include <atomic>
@@ -17,7 +17,7 @@ Copyright © wkangk <wangkangchn@163.com>
 #include "common.hpp"
 
 
-WKANGK_TOOLS_BEGIN_NAMESPACE
+TOOLS_BEGIN_NAMESPACE
 
 
 class ThreadObject
@@ -109,5 +109,5 @@ private:
     std::unique_ptr<std::thread> th_;
 };
 
-WKANGK_TOOLS_END_NAMESPACE
-#endif	/* !__WKANGK_TOOLS_THREADOBJECT_HPP__ */
+TOOLS_END_NAMESPACE
+#endif	/* !__TOOLS_THREADOBJECT_HPP__ */

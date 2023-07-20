@@ -1,1 +1,0 @@
-/usr/bin/g++   -O2 -Wall -fPIC  -rdynamic CMakeFiles/unittest_logger.dir/unittest_logger.cpp.o CMakeFiles/unittest_logger.dir/__/logger/logger.cpp.o  -o unittest_logger  -lpthread /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2 -lgmock /usr/local/lib/libgtest_main.a /usr/local/lib/libgtest.a -lpthread 

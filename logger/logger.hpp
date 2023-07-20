@@ -20,7 +20,7 @@ Copyright © wkangk <wangkangchn@163.com>
 #include "common.hpp"
 
 
-WKANGK_TOOLS_BEGIN_NAMESPACE
+TOOLS_BEGIN_NAMESPACE
 
 
 enum LogLevel
@@ -68,23 +68,5 @@ private:
 #define ERROR(...) SPDLOG_LOGGER_CALL(MyLogger::get_instance(), spdlog::level::err, __VA_ARGS__)
 
 
-
-/**
- *     该函数可以直接将 spdlog 的格式化形式转为 string
- * 并且当定义了自定义类型时, 也可以直接使用该 format 进行输出
- * 我真的太强了, 这都被我摘出来了, 强强强
- *
- * @param [in]  fmt     格式字符串
- * @param [in]  args    格式字符串中的参数 
- * @return     格式化后字符串
- */
-template<typename... Args>
-std::string format(spdlog::format_string_t<Args...> fmt, Args &&... args)
-{
-    spdlog::memory_buf_t buf;
-    fmt::vformat_to(fmt::appender(buf), spdlog::details::to_string_view(fmt), fmt::make_format_args(args...));
-    return std::string(buf.begin(), buf.end());
-}
-
-WKANGK_TOOLS_END_NAMESPACE
+TOOLS_END_NAMESPACE
 #endif	/* !__WKANGK_LOGGER_HPP__ */

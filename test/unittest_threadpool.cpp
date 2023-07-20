@@ -13,7 +13,7 @@ Copyright © wkangk <wangkangchn@163.com>
 #include "thread/thread_pool.hpp"
 
 
-USEING_WKANGK_TOOLS_NAMESPACE
+USEING_TOOLS_NAMESPACE
 
 
 void fun1(int slp)
